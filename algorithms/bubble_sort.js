@@ -16,8 +16,11 @@ function bubbleSort() {
         }
     } while (swapped);
 
-    console.log(`The loop ran ${count} times.`);
-    console.log(unSortedArray);
+    return unSortedArray;
 }
 
-bubbleSort();
+describe('bubbleSort()', function() {
+    it("should return sorted array", function() {
+        expect(bubbleSort()).toEqual([0, 1, 12, 80, 90, 700]);
+      });
+});
