@@ -13,7 +13,14 @@ class LinkedList {
     }
 
     push(value) {
+        const node = new node(value);
+        if(!this.head) {
+            this.head = node;
+        } else {
+            this.tail.next = node;
+        }
 
+        this.tail = node;
     }
 
     pop() {
