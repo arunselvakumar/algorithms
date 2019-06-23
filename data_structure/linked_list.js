@@ -11,7 +11,9 @@ class LinkedList {
         this.length = 0;
         this.tail = null;
     }
-
+    /**
+     * @param  {} value
+     */
     push(value) {
         const node = new node(value);
         if(!this.head) {
