@@ -12,7 +12,7 @@ class LinkedList {
         this.tail = null;
     }
     /**
-     * @param  {} value
+     * @param  {Object} value
      */
     push(value) {
         const node = new node(value);
