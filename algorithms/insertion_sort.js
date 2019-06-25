@@ -17,4 +17,8 @@ function insertionSort() {
     console.log(unSortedArray);
 }
 
-insertionSort();
+describe('insertionSort()', function() {
+    it("should return sorted array", function() {
+        expect(insertionSort()).toEqual([0, 1, 12, 80, 90, 700]);
+    });
+});
