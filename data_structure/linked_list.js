@@ -11,6 +11,7 @@ class LinkedList {
         this.length = 0;
         this.tail = null;
     }
+
     /**
      * @param  {Object} value
      */
