@@ -17,7 +17,7 @@ function hasUniqueCharacters(obj) {
         dictionary[char] = char;
     });
 
-    return!hasDuplicateChararacters;
+    return !hasDuplicateChararacters;
 }
 
 const result = hasUniqueCharacters('foo');
